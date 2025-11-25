@@ -1,9 +1,9 @@
-Quick TTS proxy (hackathon/demo)
+Quick TTS proxy
 ================================
 
 Purpose
 -------
-This folder contains a minimal Express proxy that forwards text-to-speech requests to ElevenLabs and returns an MP3/audio bytes. It's intentionally simple for quick demos.
+This folder contains an Express proxy that forwards text-to-speech requests to ElevenLabs and returns an MP3/audio bytes. 
 
 Files to note
 - `server.js` — the Express server (POST /tts)
