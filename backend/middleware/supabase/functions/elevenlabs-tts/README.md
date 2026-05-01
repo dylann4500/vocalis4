@@ -34,9 +34,3 @@ POST JSON body:
 Response
 --------
 Binary audio bytes are returned with the Content-Type set according to ElevenLabs response (usually `audio/mpeg`).
-
-Notes and next steps
---------------------
-- Confirm the exact ElevenLabs endpoint and header name (`xi-api-key` is commonly used) against ElevenLabs docs and update `index.ts` if needed.
-- For mobile/native playback (Expo): either have this function return a temporary public URL to stream, or have the app save the returned bytes to disk and play them using `expo-av`.
-- If you want, I can add a small helper to write the audio bytes to Supabase Storage and return a signed URL so mobile can stream directly.
